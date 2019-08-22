@@ -19,9 +19,7 @@ namespace sample
         static void Main(string[] args)
         {
             Encoding encoding = Encoding.UTF8;
-            // var languageBytes = File.ReadAllBytes(PathToLanguageTranscript);
             var languageBytes = encoding.GetBytes(File.ReadAllText(PathToLanguageTranscript, Encoding.UTF8));
-            // var transcriptBytes = File.ReadAllBytes(PathToAudioTranscript);
             var transcriptBytes = encoding.GetBytes(File.ReadAllText(PathToAudioTranscript, Encoding.UTF8));
             var zipBytes = File.ReadAllBytes(PathToZipFile);
 
