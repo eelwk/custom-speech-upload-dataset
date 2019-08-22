@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sample", "sample\sample.csproj", "{5A824DD5-5BDE-4F8B-BEDE-ADF1871D2952}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "files", "files", "{14108AF0-6213-42CD-BD81-46FFD5C228F8}"
+	ProjectSection(SolutionItems) = preProject
+		files\Channel_1_Audio_-0001.zip = files\Channel_1_Audio_-0001.zip
+		files\Channel_1_Audio_Transcript.txt = files\Channel_1_Audio_Transcript.txt
+		files\LanguageTranscript.txt = files\LanguageTranscript.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "custom-speech", "custom-speech\custom-speech.csproj", "{7D5BB331-2F59-4DFC-A06E-43DFDF594949}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A824DD5-5BDE-4F8B-BEDE-ADF1871D2952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A824DD5-5BDE-4F8B-BEDE-ADF1871D2952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A824DD5-5BDE-4F8B-BEDE-ADF1871D2952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A824DD5-5BDE-4F8B-BEDE-ADF1871D2952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D5BB331-2F59-4DFC-A06E-43DFDF594949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D5BB331-2F59-4DFC-A06E-43DFDF594949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D5BB331-2F59-4DFC-A06E-43DFDF594949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D5BB331-2F59-4DFC-A06E-43DFDF594949}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B94629C-8522-4701-8427-8729E1EF378C}
+	EndGlobalSection
+EndGlobal
