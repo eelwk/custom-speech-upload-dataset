@@ -5,7 +5,7 @@ https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/how-to-
 
 to the speech portal in an automated fashion. 
 
-* note that the tricky part is that the post is a multi-part form data post *
+_note that the tricky part is that the post is a multi-part form data post_
 
 You can always import packages manually in your region's speech portal (i.e. https://westus2.cris.ai/Datasets/Create?Kind=Acoustic)
 
